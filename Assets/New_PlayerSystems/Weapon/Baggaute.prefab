@@ -131,6 +131,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Meleeweaphon
   damage: 25
+  impactNormalizedTime: 0.1
   attackCooldown: 0.5
   strikePoint: {fileID: 8309351519909101895}
   hitRadius: 1.5

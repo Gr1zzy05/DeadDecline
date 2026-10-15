@@ -9,6 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5089585172212656198}
+  - component: {fileID: 914700000000000002}
+  - component: {fileID: 914700000000000001}
   - component: {fileID: 4700690106945019464}
   - component: {fileID: 9185832707519329052}
   - component: {fileID: 7594194136848427246}
@@ -651,3 +653,51 @@ MonoBehaviour:
   m_ObsoleteUseShadowQualitySettings: 0
   m_ObsoleteCustomShadowResolution: 512
   m_ObsoleteContactShadows: 0
+
+--- !u!114 &914700000000000001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3377572963478711822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5621837fc413224c97dfe6d8fbc4e65, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Assembly-CSharp::Health
+  maxHealth: 100
+  infiniteHealth: 0
+--- !u!114 &914700000000000002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3377572963478711822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c00cd804354f4dc7a6d5816d963c1906, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Assembly-CSharp::SightDebug
+  actorKind: 0
+  showSight: 1
+  onlyWhenSelected: 0
+  showSampleRays: 1
+  showLabel: 1
+  rayCount: 17
+  eyes: {fileID: 0}
+  target: {fileID: 0}
+  eyeHeight: 1.6
+  sightRange: 10
+  fieldOfView: 90
+  obstacleMask:
+    serializedVersion: 2
+    m_Bits: 256
+  viewCamera: {fileID: 992790497561310889}
+  humanColor: {r: 0.2, g: 0.7, b: 1, a: 1}
+  npcColor: {r: 1, g: 0.75, b: 0.1, a: 1}
+  zombieColor: {r: 0.8, g: 0.2, b: 1, a: 1}
+  visibleColor: {r: 0, g: 1, b: 0, a: 1}
+  blockedColor: {r: 1, g: 0, b: 0, a: 1}
+  outsideColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}

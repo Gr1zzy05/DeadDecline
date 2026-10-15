@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3cdfe1ae07af14295affe6c12b1e41, type: 3}
+  m_Name: Bat
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  itemName: BaseBallBat
+  isWeapon: 1
+  itemType: 0
+  uiIcon: {fileID: 21300000, guid: 2bbd2a22ea3bfde4d9af392a63179d92, type: 3}
+  dropPrefab: {fileID: 8028213383082866393, guid: d8332f3372468144a91a30cb82692c59,
+    type: 3}
+  viewModelPrefab: {fileID: 4851454595752680757, guid: d977868b78b8c924e8d2f6856ea106c2,
+    type: 3}
+  ammoAmount: 0

@@ -512,7 +512,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22240c1ac27a0da4cbb34d5d545975da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RangedWeaphon
-  damage: 25
+  damage: 34
+  impactNormalizedTime: 0.05
   attackCooldown: 0.5
   muzzlePoint: {fileID: 377660911322062}
   range: 50

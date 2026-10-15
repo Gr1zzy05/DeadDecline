@@ -156,6 +156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Health
   maxHealth: 100
+  infiniteHealth: 0
 --- !u!195 &3840997830503871782
 NavMeshAgent:
   m_ObjectHideFlags: 0
